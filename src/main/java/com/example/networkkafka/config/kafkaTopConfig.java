@@ -10,6 +10,6 @@ public class kafkaTopConfig {
 
     @Bean
     public NewTopic amigoscodeTopic() {
-        return TopicBuilder.name("amigoscode").build();
+        return TopicBuilder.name("cleancode").build();
     }
 }

@@ -16,7 +16,7 @@ public class NetworkKafkaApplication {
     @Bean
     CommandLineRunner commandLineRunner(KafkaTemplate<String, String> kafkaTemplate) {
         return args -> {
-            kafkaTemplate.send("amigoscode", "hello kafka");
+            kafkaTemplate.send("cleancode", "hello kafka");
         };
     }
 }
